@@ -5,10 +5,15 @@ function validateCode(event) {
 
     var codeInput = document.querySelector('#b-form input[type="password"]').value;
     var accessCode = "sig2024xcf";
+    var accessCode2 = "reperio2024";
     
     if(codeInput === accessCode) {
         window.location.href = "https://aarya00s.github.io/login/";
-    } else {
+    }
+    else if(codeInput === accessCode2) {
+        window.location.href = "https://aarya00s.github.io/reperio/";
+    } 
+    else {
         alert("Incorrect code. Please try again.");
     }
 }

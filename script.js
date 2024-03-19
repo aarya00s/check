@@ -11,7 +11,7 @@ function validateCode(event) {
         window.location.href = "https://aarya00s.github.io/login/";
     }
     else if(codeInput === accessCode2) {
-        window.location.href = "https://aarya00s.github.io/reperio/";
+        window.location.href = "https://aarya00s.github.io/login2/";
     } 
     else {
         alert("Incorrect code. Please try again.");

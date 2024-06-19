@@ -6,6 +6,9 @@ function validateCode(event) {
     var codeInput = document.querySelector('#b-form input[type="password"]').value;
     var accessCode = "sig2024xcf";
     var accessCode2 = "reperio2024";
+     var accessCode3 = "microsoft2024";
+     var accessCode4 = "virtu2024";
+     var accessCode5 = "dab2024";
     
     if(codeInput === accessCode) {
         window.location.href = "https://aarya00s.github.io/login/";
@@ -13,6 +16,16 @@ function validateCode(event) {
     else if(codeInput === accessCode2) {
         window.location.href = "https://aarya00s.github.io/login2/";
     } 
+    else if(codeInput === accessCode3) {
+        window.location.href = "https://aarya00s.github.io/loginMicrosoft/";
+    } 
+    else if(codeInput === accessCode4) {
+        window.location.href = "https://aarya00s.github.io/loginvirtu/";
+    } 
+    else if(codeInput === accessCode5) {
+        window.location.href = "https://aarya00s.github.io/logindandb/";
+    } 
+            
     else {
         alert("Incorrect code. Please try again.");
     }

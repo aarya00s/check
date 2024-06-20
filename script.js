@@ -9,6 +9,7 @@ function validateCode(event) {
      var accessCode3 = "microsoft2024";
      var accessCode4 = "virtu2024";
      var accessCode5 = "dab2024";
+    var accessCode6 = "vir2024";
     
     if(codeInput === accessCode) {
         window.location.href = "https://aarya00s.github.io/login/";
@@ -24,6 +25,9 @@ function validateCode(event) {
     } 
     else if(codeInput === accessCode5) {
         window.location.href = "https://aarya00s.github.io/logindandb/";
+    } 
+    else if(codeInput === accessCode6) {
+        window.location.href = "https://aarya00s.github.io/login_viridian/";
     } 
             
     else {

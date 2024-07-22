@@ -5,7 +5,7 @@ function validateCode(event) {
 
     var codeInput = document.querySelector('#b-form input[type="password"]').value;
     var accessCode = "sig2024xcf";
-    var accessCode2 = "reperio2024";
+    var accessCode2 = "se2024";
      var accessCode3 = "microsoft2024";
      var accessCode4 = "virtu2024";
      var accessCode5 = "dab2024";
